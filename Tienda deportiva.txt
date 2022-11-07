@@ -1,0 +1,206 @@
+<html>
+   <head>
+       <title>  TESE SPORT'S </title>
+
+<style>
+
+.header
+{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.navbar {
+display: flex;
+align-items:center;
+justify-content:center;
+
+}
+
+.list-Articulos {
+display: flex;
+align-items:center;
+justify-content:center;
+
+}
+
+.list-Articulos figure {
+display: flex;
+align-items:center;
+justify-content:center;
+flex-flow:column;
+
+}
+
+.header {
+height: 450px;
+background:url(f362aa219ec23ee84341891fc4b598cc.jpg) no-repeat center top ;
+background-size:cover;
+
+}
+
+.navbar{
+height: 63px;
+background:#212121;
+border-bottom:1px dashed #D6E199;
+
+}
+
+.navbar a {
+padding: 0 20px;
+color:#fff;
+text-decoration:none;
+text-transform: uppercase;
+font:20px;
+}
+
+.title{
+margin-bottom:40px;
+font:60px;
+text-transform: uppercase;
+}
+
+p {
+margin-bottom:40px;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 40px;
+border: 2px solid #fff;
+color:#fff;
+text-decoration:none;
+}
+
+.content {
+padding: 80px 0;
+}
+
+.Acerca de {
+background color:#D1FF00;
+text:#fff;
+}
+
+.Acerca de p {
+max-width: 1055px;
+margin: 0 auto;
+}
+
+Aserca de {
+background: #D1FF00;
+color: #fff;
+}
+
+.Precios{
+background: url(precios.jpg) no-repeat center top;
+color:#fff;
+text-aling:left;
+background-size: cover;
+}
+
+.contain{
+max-width: 1055px;
+margin: 0 auto;
+}
+
+.Precios p{
+max-width:450px;
+}
+
+.Visitanos{
+background: #3D3F36;
+color:#fff;
+paddin-bottom:0;
+}
+
+.Visitanos.map img {
+max-width: 100%;
+height:100%
+}
+
+.list-Articulos figure{
+position:relative;
+width:100px;
+height:100px;
+}
+
+.list-Articulos figure: after{
+content:"";
+position: absolute;
+left:0;
+top:0;
+z-index:0;
+background:#D1FF00;
+border-radius: 50%;
+width:100%;
+height:100%;
+
+</style>
+
+   </head>
+<body>
+
+
+<header class="header">
+</header>
+
+<nav class="navbar">
+     <a href="">Inicio</a>
+     <a href="">Acerca de</a>
+     <a href="">Catalogo</a>
+     <a href="">Visitanos</a>
+     <a href="">Precios</a>
+</nav>
+
+<section class="content Acerca">
+    <h2 class="title">Acerca de</h2>
+       <p>Esta es un a tienda creada para la venta de productos y articulos deportivos para la comodidad del cliente en los deportes.</p>
+       <br> Articulos
+       <p>En esta tienda se venden grandes cantidades y variedades de productos y articulos de portivos, ya sea desde un balon hasta una raqueta de tenis, hay variedad para todos los deportes conocidos y populares y no tan populares</p> 
+
+</section>
+<section class="content Articulos">
+    <h2 class="title">Articulos</h2>
+       <p>Hay diversos y variados articulos deportivos para el deporte de su agrado y para cualquier tipo de deporte en el que esta participando o este interezado en participar.</p>
+       <br> Articulos en en venta
+    <ul class="list-Articulos">
+<li>
+         <figure>
+             <img src="">
+             <figcaption> Soccer </figcaption>
+         </figure>
+       </li>
+<li>
+         <figure>
+             <img src="">
+             <figcaption> Americano </figcaption>
+         </figure>
+       </li>
+<li>
+         <figure>
+             <img src="">
+             <figcaption> Tenis </figcaption>
+         </figure>
+       </li>
+    </ul>
+</section>
+
+<section class="content Precios">
+    <article class="contain">
+      <h2 class="title">Precios</h2>
+      <p> Los precios varian dependiendo el articulo para mas informacion contactenos o visite nuestra cede.</p>
+
+      <a href="" class="btn">Contactos</a>
+    </article>
+</section>
+
+<section class"content Visitanos">
+    <h2 class="title">Visitanos</h2>
+    <p> Nos encontramos en</p>
+    <figure class="map"><img src="https://10619-2.s.cdn12.com/maps/cafeteria-tese-ecatepec-map.jpg">
+</section>
+
+<iframe width="300" height="154" src="https://w2.countingdownto.com/2734593" frameborder="0"></iframe>
+</body>
+</html>
